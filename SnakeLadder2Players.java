@@ -43,7 +43,7 @@ public class SnakeLadder2Players {
         sc.close();
     }
 
-    
+    // function for snakes and ladders
     public static int checkSnakesAndLadders(int pos) {
         // Ladders
         if (pos == 4) return 25;
